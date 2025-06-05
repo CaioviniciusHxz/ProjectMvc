@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css"
+    },
+    {
       "Id": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

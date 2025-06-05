@@ -413,6 +413,88 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 01:28:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.ol7m35171h.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 01:28:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ol7m35171h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flaty.css"
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
       "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "Selectors": [],

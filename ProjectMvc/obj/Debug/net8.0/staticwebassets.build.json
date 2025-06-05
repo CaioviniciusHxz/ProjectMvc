@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AQD5GnD7gzYTpIX8XSk9EKrVQoDRImDHFosJdewJIxo=",
+  "Hash": "ZRKukGIv5cL0JHH4vN0ZiqEVtyf+hzObok1nF0HdlmM=",
   "Source": "ProjectMvc",
   "BasePath": "_content/ProjectMvc",
   "Mode": "Default",
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
+      "SourceId": "ProjectMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\",
+      "BasePath": "_content/ProjectMvc",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flaty#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ol7m35171h",
+      "Integrity": "BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css"
     },
     {
       "Identity": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2219,6 +2240,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.css",
+      "AssetFile": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 01:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.ol7m35171h.css",
+      "AssetFile": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 01:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ol7m35171h"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flaty.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BElWh0BC9uXingov4/Ns3IzPGKwJzkV8uu90bbGNh8o="
         }
       ]
     },
