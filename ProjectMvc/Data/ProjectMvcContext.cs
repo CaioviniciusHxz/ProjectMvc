@@ -15,5 +15,7 @@ namespace ProjectMvc.Data
         }
 
         public DbSet<ProjectMvc.Models.Departament> Departament { get; set; } = default!;
+        public DbSet<Saller> Saller { get; set; }
+        public DbSet<SalesRecord> SalesRecords { get; set; }
     }
 }
