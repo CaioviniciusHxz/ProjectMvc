@@ -9,12 +9,17 @@ builder.Services.AddDbContext<ProjectMvcContext>(options =>
         builder.Configuration.GetConnectionString("ProjectMvcContext"), // Nome da string no appsettings.json
         new MySqlServerVersion(new Version(8, 0, 36)), // Coloque a versão real do seu MySQL
         mySqlOptions => mySqlOptions.MigrationsAssembly("ProjectMvc")));
+builder.Services.AddScoped<SeedingService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<SeedingService>();
+    seeder.Seed();
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
