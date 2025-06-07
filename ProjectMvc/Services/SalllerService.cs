@@ -18,5 +18,16 @@ namespace ProjectMvc.Services
             return _context.Saller.ToList();
         }
 
+        //adiciona um novo vendedor ao banco de dados
+        public void Insert(Saller obj)
+        {
+            obj.Departament = _context.Departament.First();
+            _context.Add(obj);
+            _context.SaveChanges();
+          
+
+
+        }
+
     }
 }
