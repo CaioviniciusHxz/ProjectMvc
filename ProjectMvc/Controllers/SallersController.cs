@@ -46,5 +46,29 @@ namespace ProjectMvc.Controllers
             //redireciona para ação index(a que mostra na tela principal)
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult Delete(int? id)
+        {
+            if(id == null)
+            {
+                return NotFound();
+            }
+            var obj = _sallerService.FindById(id.Value);
+            if (obj == null) 
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            _sallerService.Remove(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
