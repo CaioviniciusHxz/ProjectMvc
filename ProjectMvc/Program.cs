@@ -12,6 +12,7 @@ builder.Services.AddDbContext<ProjectMvcContext>(options =>
         mySqlOptions => mySqlOptions.MigrationsAssembly("ProjectMvc")));
 builder.Services.AddScoped<SeedingService>();
 builder.Services.AddScoped<SalllerService>();
+builder.Services.AddScoped<DepartamentService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

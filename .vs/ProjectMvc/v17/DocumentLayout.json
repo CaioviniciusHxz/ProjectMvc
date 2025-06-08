@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\services\\salllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\services\\salllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\saller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\models\\saller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\controllers\\sallerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\controllers\\sallerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\controllers\\departamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\controllers\\departamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\services\\departamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\services\\departamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\viewmodels\\sallesformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\models\\viewmodels\\sallesformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\services\\salllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\services\\salllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\sallers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\sallers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\sallers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\sallers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\data\\projectmvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\data\\projectmvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\departament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\models\\departament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\saller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\models\\saller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\departaments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\departaments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\data\\projectmvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\data\\projectmvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\departaments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\migrations\\20250605004916_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\sallers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\sallers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -63,24 +91,12 @@
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\migrations\\projectmvccontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\projectmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\projectmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\departament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\models\\departament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\models\\enuns\\salesstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,12 +107,8 @@
       "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\controllers\\departamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\controllers\\departamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|c:\\users\\caiov\\desktop\\webproject\\projectmvc\\projectmvc\\migrations\\20250607002908_departamentforkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897C6FA6-F1D3-4F61-AF9F-B2BF3DC03E04}|ProjectMvc\\ProjectMvc.csproj|solutionrelative:projectmvc\\migrations\\20250607002908_departamentforkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,154 +118,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250607002908_DepartamentForKey.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
-              "RelativeToolTip": "ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SallesFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\ViewModels\\SallesFormViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Models\\ViewModels\\SallesFormViewModel.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\ViewModels\\SallesFormViewModel.cs",
+              "RelativeToolTip": "ProjectMvc\\Models\\ViewModels\\SallesFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:29:08.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Create.cshtml",
-              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Departaments\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Create.cshtml",
-              "RelativeToolTip": "ProjectMvc\\Views\\Departaments\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T00:19:12.245Z",
+              "WhenOpened": "2025-06-07T22:03:39.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Sallers\\Create.cshtml",
-              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Sallers\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Sallers\\Create.cshtml",
-              "RelativeToolTip": "ProjectMvc\\Views\\Sallers\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-06T22:34:47.286Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:02:44.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SalllerService.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\SalllerService.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Services\\SalllerService.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\SalllerService.cs",
-              "RelativeToolTip": "ProjectMvc\\Services\\SalllerService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T00:19:19.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectMvcContext.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\ProjectMvcContext.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Data\\ProjectMvcContext.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\ProjectMvcContext.cs",
-              "RelativeToolTip": "ProjectMvc\\Data\\ProjectMvcContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:33:07.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Saller.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Saller.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Models\\Saller.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Saller.cs",
-              "RelativeToolTip": "ProjectMvc\\Models\\Saller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:42:08.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeedingService.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\SeedingService.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Data\\SeedingService.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\SeedingService.cs",
-              "RelativeToolTip": "ProjectMvc\\Data\\SeedingService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAswCEAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T22:34:26.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SallersController.cs",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\SallersController.cs",
               "RelativeDocumentMoniker": "ProjectMvc\\Controllers\\SallersController.cs",
               "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\SallersController.cs",
               "RelativeToolTip": "ProjectMvc\\Controllers\\SallersController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wBQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T23:49:17.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SalesRecord.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\SalesRecord.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Models\\SalesRecord.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\SalesRecord.cs",
-              "RelativeToolTip": "ProjectMvc\\Models\\SalesRecord.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SalllerService.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\SalllerService.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Services\\SalllerService.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\SalllerService.cs",
+              "RelativeToolTip": "ProjectMvc\\Services\\SalllerService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:44:57.566Z",
+              "WhenOpened": "2025-06-06T00:19:19.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250605004916_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250605004916_Initial.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\20250605004916_Initial.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250605004916_Initial.cs",
-              "RelativeToolTip": "ProjectMvc\\Migrations\\20250605004916_Initial.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DepartamentService.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\DepartamentService.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Services\\DepartamentService.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Services\\DepartamentService.cs",
+              "RelativeToolTip": "ProjectMvc\\Services\\DepartamentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:49:17.733Z",
+              "WhenOpened": "2025-06-07T21:57:50.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartamentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\DepartamentsController.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Controllers\\DepartamentsController.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\DepartamentsController.cs",
+              "RelativeToolTip": "ProjectMvc\\Controllers\\DepartamentsController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:25:39.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ProjectMvc\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ProjectMvc\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T00:53:11.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectMvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\appsettings.json",
+              "RelativeToolTip": "ProjectMvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T00:26:40.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Departaments\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Index.cshtml",
-              "RelativeToolTip": "ProjectMvc\\Views\\Departaments\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T01:34:49.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Sallers\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectMvc\\Views\\Sallers\\Index.cshtml",
@@ -261,11 +234,147 @@
               "RelativeToolTip": "ProjectMvc\\Views\\Sallers\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T23:52:09.522Z"
+              "WhenOpened": "2025-06-05T23:52:09.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Sallers\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Sallers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Sallers\\Create.cshtml",
+              "RelativeToolTip": "ProjectMvc\\Views\\Sallers\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T22:34:47.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Departament.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Departament.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Models\\Departament.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Departament.cs",
+              "RelativeToolTip": "ProjectMvc\\Models\\Departament.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:21:50.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Saller.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Saller.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Models\\Saller.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Saller.cs",
+              "RelativeToolTip": "ProjectMvc\\Models\\Saller.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:42:08.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectMvcContext.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\ProjectMvcContext.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Data\\ProjectMvcContext.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\ProjectMvcContext.cs",
+              "RelativeToolTip": "ProjectMvc\\Data\\ProjectMvcContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:33:07.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeedingService.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\SeedingService.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Data\\SeedingService.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Data\\SeedingService.cs",
+              "RelativeToolTip": "ProjectMvc\\Data\\SeedingService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswCEAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T22:34:26.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Program.cs",
+              "RelativeToolTip": "ProjectMvc\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:27:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Departaments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Create.cshtml",
+              "RelativeToolTip": "ProjectMvc\\Views\\Departaments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T00:19:12.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250607002908_DepartamentForKey.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
+              "RelativeToolTip": "ProjectMvc\\Migrations\\20250607002908_DepartamentForKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:29:08.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SalesRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\SalesRecord.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Models\\SalesRecord.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\SalesRecord.cs",
+              "RelativeToolTip": "ProjectMvc\\Models\\SalesRecord.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:44:57.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250605004916_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250605004916_Initial.cs",
+              "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\20250605004916_Initial.cs",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250605004916_Initial.cs",
+              "RelativeToolTip": "ProjectMvc\\Migrations\\20250605004916_Initial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:49:17.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectMvc\\Views\\Departaments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Departaments\\Index.cshtml",
+              "RelativeToolTip": "ProjectMvc\\Views\\Departaments\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T01:34:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "bootstrap-flaty.css",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
               "RelativeDocumentMoniker": "ProjectMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.css",
@@ -277,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "20250605021733_OtherEntities.cs",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\20250605021733_OtherEntities.cs",
               "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\20250605021733_OtherEntities.cs",
@@ -289,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "ProjectMvcContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Migrations\\ProjectMvcContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ProjectMvc\\Migrations\\ProjectMvcContextModelSnapshot.cs",
@@ -301,31 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ProjectMvc\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ProjectMvc\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-06T00:53:11.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Program.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Program.cs",
-              "RelativeToolTip": "ProjectMvc\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:27:34.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ProjectMvc.csproj",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\ProjectMvc.csproj",
               "RelativeDocumentMoniker": "ProjectMvc\\ProjectMvc.csproj",
@@ -337,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjectMvc\\Views\\Shared\\_Layout.cshtml",
@@ -349,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "SalesStatus.cs",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Enuns\\SalesStatus.cs",
               "RelativeDocumentMoniker": "ProjectMvc\\Models\\Enuns\\SalesStatus.cs",
@@ -361,19 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Departament.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Departament.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Models\\Departament.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Models\\Departament.cs",
-              "RelativeToolTip": "ProjectMvc\\Models\\Departament.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:21:50.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectMvc\\Views\\Home\\Index.cshtml",
@@ -382,30 +455,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T01:33:48.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectMvc\\appsettings.json",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\appsettings.json",
-              "RelativeToolTip": "ProjectMvc\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T00:26:40.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DepartamentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\DepartamentsController.cs",
-              "RelativeDocumentMoniker": "ProjectMvc\\Controllers\\DepartamentsController.cs",
-              "ToolTip": "C:\\Users\\Caiov\\Desktop\\WebProject\\ProjectMvc\\ProjectMvc\\Controllers\\DepartamentsController.cs",
-              "RelativeToolTip": "ProjectMvc\\Controllers\\DepartamentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:25:39.339Z"
             }
           ]
         }
