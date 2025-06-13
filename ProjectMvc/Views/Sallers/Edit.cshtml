@@ -1,0 +1,51 @@
+﻿@model ProjectMvc.Models.ViewModels.SallesFormViewModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Editar";
+
+}
+<style>
+
+    .btn, form-group {
+        margin-top: 5%
+    }
+</style>
+<h2 class="alert-dark">Editar Cadastro</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Saller.Id" />
+            <div class="form-group">
+                <label asp-for="Saller.Name" class="control-label"></label>
+                <input asp-for="Saller.Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Saller.Email" class="control-label"></label>
+                <input asp-for="Saller.Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Saller.BirthDate" class="control-label"></label>
+                <input asp-for="Saller.BirthDate" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Saller.BaseSalary" class="control-label"></label>
+                <input asp-for="Saller.BaseSalary" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Saller.Departament" class="control-label"></label>
+                <select asp-for="Saller.DepartamentId" asp-items="@(new SelectList(Model.Departments,"Id"
+                    ,"Name"))" class="form-control"></select>"
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-dark" />
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

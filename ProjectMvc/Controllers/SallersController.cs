@@ -4,6 +4,7 @@ using ProjectMvc.Services;
 using System.Linq;
 using System.Collections.Generic;
 using ProjectMvc.Models.ViewModels;
+using ProjectMvc.Services.Exception;
 
 namespace ProjectMvc.Controllers
 {
@@ -69,6 +70,59 @@ namespace ProjectMvc.Controllers
         {
             _sallerService.Remove(id);
             return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var obj = _sallerService.FindById(id.Value);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+        public IActionResult Edit(int? id) 
+        {
+            if (id == null) {
+
+                return NotFound();
+            }
+            var obj = _sallerService.FindById(id.Value);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            List<Departament> departament = _departamentService.findAll();
+            SallesFormViewModel viewModel = new SallesFormViewModel { Saller = obj, Departments = departament};
+            return View(viewModel);
+        
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, Saller saller)
+        {
+            if(id != saller.Id)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                _sallerService.Upadete(saller);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (NotFoundException ) 
+            { 
+                return NotFound(); 
+            }
+            catch (DbConcurrencyException )
+            {
+                return BadRequest(); 
+            }
+           
         }
     }
 }
