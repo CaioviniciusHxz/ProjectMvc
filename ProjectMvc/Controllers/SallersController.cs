@@ -5,6 +5,7 @@ using System.Linq;
 using System.Collections.Generic;
 using ProjectMvc.Models.ViewModels;
 using ProjectMvc.Services.Exception;
+using System.Diagnostics;
 
 namespace ProjectMvc.Controllers
 {
@@ -52,12 +53,12 @@ namespace ProjectMvc.Controllers
         {
             if(id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id não foi fornecido "});
             }
             var obj = _sallerService.FindById(id.Value);
             if (obj == null) 
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id não existe " });
             }
 
             return View(obj);
@@ -75,12 +76,12 @@ namespace ProjectMvc.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id não foi fornecido" });
             }
             var obj = _sallerService.FindById(id.Value);
             if (obj == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id não existe " });
             }
 
             return View(obj);
@@ -89,12 +90,12 @@ namespace ProjectMvc.Controllers
         {
             if (id == null) {
 
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido " });
             }
             var obj = _sallerService.FindById(id.Value);
             if(obj == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id não existe " });
             }
             List<Departament> departament = _departamentService.findAll();
             SallesFormViewModel viewModel = new SallesFormViewModel { Saller = obj, Departments = departament};
@@ -107,22 +108,32 @@ namespace ProjectMvc.Controllers
         {
             if(id != saller.Id)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new { message = "Id não correspondem  " });
             }
             try
             {
                 _sallerService.Upadete(saller);
                 return RedirectToAction(nameof(Index));
             }
-            catch (NotFoundException ) 
-            { 
-                return NotFound(); 
-            }
-            catch (DbConcurrencyException )
+            catch (NotFoundException e ) 
             {
-                return BadRequest(); 
+                return RedirectToAction(nameof(Error), new { message = e.Message});
+            }
+            catch (DbConcurrencyException e)
+            {
+                return RedirectToAction(nameof(Error), new { message = e.Message });
             }
            
+        }
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                //Macete para pega o id intern da requesição
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View(viewModel);
         }
     }
 }
