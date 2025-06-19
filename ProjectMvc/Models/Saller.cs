@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Linq;
 namespace ProjectMvc.Models
 {
     public class Saller
@@ -7,7 +8,11 @@ namespace ProjectMvc.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
+        [Display(Name =" Data de Aniversario")]
+        [DataType( DataType.Date)]
+        [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         public  DateTime BirthDate { get; set; }
+        [DisplayFormat(DataFormatString="{0:F2}")]
         public double BaseSalary { get; set; }
         public Departament Departament { get; set; }
         public int DepartamentId { get; set; }
