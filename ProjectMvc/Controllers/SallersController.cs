@@ -41,7 +41,11 @@ namespace ProjectMvc.Controllers
         [ValidateAntiForgeryToken]
         //criando o método post e insere ele no banco de dados
         public IActionResult Create(Saller saller, Departament departament)
+
         {
+            var departamnets = _departamentService.findAll();
+            var viewModel = new SallesFormViewModel { Saller = saller, Departments = departamnets };
+            return View(viewModel);
             _sallerService.Insert(saller);
             
 
@@ -106,6 +110,13 @@ namespace ProjectMvc.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Saller saller)
         {
+            if (!ModelState.IsValid)
+
+            {
+                var departamnets = _departamentService.findAll();
+                var viewModel = new SallesFormViewModel { Saller = saller, Departments = departamnets };
+                return View(viewModel);
+            }
             if(id != saller.Id)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id não correspondem  " });
