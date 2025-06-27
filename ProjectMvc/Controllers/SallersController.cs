@@ -20,14 +20,14 @@ namespace ProjectMvc.Controllers
             _departamentService = departamentService;
         }
 
-        public IActionResult Index()
+        public async Task <IActionResult> Index()
         {
-            var list = _sallerService.FindAll();
+            var list = await _sallerService.FindAllAsync();
             return View(list);
         }
-        public IActionResult Create()
+        public async Task <IActionResult> Create()
         {
-            var departaments = _departamentService.findAll();
+            var departaments = await _departamentService.findAllAssync();
             var viewModel = new SallesFormViewModel { Departments = (ICollection<Departament>)departaments };
 
             return View(viewModel);
@@ -40,26 +40,28 @@ namespace ProjectMvc.Controllers
         //previne contra ataques
         [ValidateAntiForgeryToken]
         //criando o método post e insere ele no banco de dados
-        public IActionResult Create(Saller saller, Departament departament)
+        public async Task<IActionResult> Create(Saller saller, Departament departament)
 
         {
-            var departamnets = _departamentService.findAll();
-            var viewModel = new SallesFormViewModel { Saller = saller, Departments = departamnets };
-            return View(viewModel);
-            _sallerService.Insert(saller);
+            if (ModelState.IsValid)
+            {
+                var departamnets = await _departamentService.findAllAssync();
+                var viewModel = new SallesFormViewModel { Saller = saller, Departments = departamnets };
+                return View(viewModel);
+            }
             
-
+            await _sallerService.InsertAsync(saller);
             //redireciona para ação index(a que mostra na tela principal)
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Delete(int? id)
+        public async  Task<IActionResult>  Delete(int? id)
         {
             if(id == null)
             {
                 return RedirectToAction(nameof(Error), new {message = "Id não foi fornecido "});
             }
-            var obj = _sallerService.FindById(id.Value);
+            var obj = await _sallerService.FindByIdAsync(id.Value);
             if (obj == null) 
             {
                 return RedirectToAction(nameof(Error), new { message = "Id não existe " });
@@ -71,18 +73,18 @@ namespace ProjectMvc.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete(int id)
+        public async Task <IActionResult>Delete(int id)
         {
-            _sallerService.Remove(id);
+            await _sallerService.RemoveAsync(id);
             return RedirectToAction(nameof(Index));
         }
-        public IActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id não foi fornecido" });
             }
-            var obj = _sallerService.FindById(id.Value);
+            var obj = await _sallerService.FindByIdAsync(id.Value);
             if (obj == null)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id não existe " });
@@ -90,30 +92,30 @@ namespace ProjectMvc.Controllers
 
             return View(obj);
         }
-        public IActionResult Edit(int? id) 
+        public async Task <IActionResult> Edit(int? id) 
         {
             if (id == null) {
 
                 return RedirectToAction(nameof(Error), new { message = "Id não fornecido " });
             }
-            var obj = _sallerService.FindById(id.Value);
+            var obj = await _sallerService.FindByIdAsync(id.Value);
             if(obj == null)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id não existe " });
             }
-            List<Departament> departament = _departamentService.findAll();
+            List<Departament> departament = await _departamentService.findAllAssync();
             SallesFormViewModel viewModel = new SallesFormViewModel { Saller = obj, Departments = departament};
             return View(viewModel);
         
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, Saller saller)
+        public async Task <IActionResult> Edit(int id, Saller saller)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
 
             {
-                var departamnets = _departamentService.findAll();
+                var departamnets = await _departamentService.findAllAssync();
                 var viewModel = new SallesFormViewModel { Saller = saller, Departments = departamnets };
                 return View(viewModel);
             }
@@ -123,7 +125,7 @@ namespace ProjectMvc.Controllers
             }
             try
             {
-                _sallerService.Upadete(saller);
+                await _sallerService.UpadeteAsync(saller);
                 return RedirectToAction(nameof(Index));
             }
             catch (NotFoundException e ) 

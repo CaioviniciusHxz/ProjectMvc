@@ -1,6 +1,7 @@
 ﻿using ProjectMvc.Data;
 using ProjectMvc.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProjectMvc.Services
 {
@@ -15,12 +16,20 @@ namespace ProjectMvc.Services
 
 
         //metodo que retona dos os departamentos
-        public  List<Departament> findAll()
+        //metodo sicrono
+        /*public  List<Departament> findAll()
         {
             //ordenado por nome
             return _context.Departament.OrderBy(x => x.Name).ToList();
+        }*/
+
+        // metodo assicrono
+        public async Task <List<Departament>> findAllAssync()
+        {
+            //ordenado por nome
+            return await _context.Departament.OrderBy(x => x.Name).ToListAsync();
         }
 
-     
+
     }
 }

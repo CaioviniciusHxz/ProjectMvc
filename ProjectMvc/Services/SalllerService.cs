@@ -15,39 +15,48 @@ namespace ProjectMvc.Services
             _context = context;
         }
 
+        /*metedo sicrono
         public List<Saller> FindAll()
         {
             return _context.Saller.ToList();
+        }:*/
+
+        //Metodo assincrono
+        public async Task<List<Saller>> FindAllAsync()
+        {
+            return await _context.Saller.ToListAsync();
         }
+
 
         //adiciona um novo vendedor ao banco de dados
-        public void Insert(Saller obj)
+        public async  Task InsertAsync(Saller obj)
         { 
             _context.Add(obj);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
           
         }
-        public Saller FindById(int id)
+        public  async Task<Saller> FindByIdAsync(int id)
         {
 
-            return _context.Saller.Include(obj=>obj.Departament).FirstOrDefault(obj => obj.Id== id);
+            return await _context.Saller.Include(obj=>obj.Departament).FirstOrDefaultAsync(obj => obj.Id== id);
         }
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
-            var obj = _context.Saller.Find(id);
+            var obj = await _context.Saller.FindAsync(id);
             _context.Saller.Remove(obj);
-            _context.SaveChanges(); 
+            await _context.SaveChangesAsync(); 
         }
-        public void Upadete(Saller obj)
+        public async Task UpadeteAsync(Saller obj)
         {
-            if(!_context.Saller.Any(x => x.Id == obj.Id))
+            bool hasAny = await _context.Saller.AnyAsync(x => x.Id == obj.Id);
+            if (!hasAny)
             {
                 throw new NotFoundException("Id não encontrado");
             }
             try
             {
                 _context.Update(obj);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             catch (DbConcurrencyException e)
             {
